@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+{% load static %}
+{% block page_content %}
+<h1>Attendance</h1>
+<div class="row">
+	<!--{% for project in projects %}-->
+		<div class="col-md-4">
+			<div class="card mb-2">
+                    
+				<img class="card-img-top" src="static project1.png">
+				<div class="card-body">
+					<h5 class="card-title">Google Maps</h5>
+					<p class="card-text">The Geolocation API used in this project tries to find the venue of the ongoing class</p>
+					<a href="https://docs.djangoproject.com/en/1.11/ref/contrib/gis/geoip/" class="btn btn-primary">
+						Read More
+					</a>
+				</div>
+			</div>
+		</div>
+	<!--{% endfor %}-->
+</div>
+{% endblock %}
